@@ -1,7 +1,6 @@
-function add(num1, num2) {
-  return num1 + num2;
-}
-const num1 = parseInt(prompt("Enter a number:"));
-const num2 = parseInt(prompt("Enter a number:"));
-
-alert(add(num1, num2));
+function converter(num1){
+  return (num1 * (3.78));
+  }
+  const num1 = parseInt(prompt("Enter gallons to convert to liters"));
+  const result = converter(num1).toFixed(1);
+  alert(result +"liters");
